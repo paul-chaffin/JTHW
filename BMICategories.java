@@ -38,7 +38,7 @@ public class BMICategories {
     }
     else {
       System.out.println( "very severely/\"morbidly\" obese" );
-    // Comment to test git
+    // Comment to test git again
     }
   }
 }
