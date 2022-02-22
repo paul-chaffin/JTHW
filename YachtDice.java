@@ -1,5 +1,5 @@
 public class YachtDice {
-  publis static void main( String[] args ) {
+  public static void main( String[] args ) {
     int r1, r2, r3, r4, r5;
     boolean allSame;
 
@@ -40,8 +40,26 @@ public class YachtDice {
     {
       System.out.println("|o  |");
       System.out.println("| o |");
-      System.out.printkn("|  o|");
+      System.out.println("|  o|");
     }
     else if ( roll == 4 )
+    {
+      System.out.println("|o o|");
+      System.out.println("|   |");
+      System.out.println("|o o|");
+    }
+    else if ( roll == 5 )
+    {
+      System.out.println("|o o|");
+      System.out.println("| o |");
+      System.out.println("|o o|");
+    }
+    else if ( roll == 6 )
+    {
+      System.out.println("|o o|");
+      System.out.println("|o o|");
+      System.out.println("|o o|");
+    }
+    System.out.println("+---+");
   }
 }
