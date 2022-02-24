@@ -4,9 +4,9 @@
 |                        |
 | 2014-06-25  04:38PM    |
 |                        |
-| Gallons:       12.464  |
-| Price/gallon: $ 3.459  |
+| Gallons:       10.0  |
+| Price/gallon: $ 3.478  |
 |                        |
-| Fuel total:  $ 43.11   |
+| Fuel total:  $ 35.0   |
 |                        |
 +------------------------+
