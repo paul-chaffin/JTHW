@@ -22,6 +22,8 @@ public class PickACard
 
     System.out.println( "You picked a " + picked + " out of the deck " );
     System.out.println( "worth " + picked.value + " points in Blackjack." );
+
+    displayDeck(deck);
   }
 
   public static Card[] buildDeck()
@@ -62,5 +64,9 @@ public class PickACard
   {
     for ( Card c : deck )
       System.out.println(c.value + "\t" + c);
+  }
+
+  public static void shuffleDeck( Card[] deck )
+  {
   }
 }
